@@ -1,2 +1,5 @@
 # HBC-GraphicsGame
 This program uses the WebGL API to create an interactive experience in 3D.
+The program features a main character that the user can control via key presses. The ‘a’ and ‘d’ keys rotate the character left and right by the y-axis, respectively, while the ‘0’ numerical key moves it forward in the direction it’s currently facing. The ‘w’ and ‘s’ keys translate the character up and down, respectively.
+The game also features a set of buttons. The first button called “Change view” toggles the view shifting the camera between the origin and a point at (0, 0.75, 2), which is 20.56 degrees
+above the origin. The second button called “Jump to random” moves the first character to a random spot in the world. The third button called “Change color of color trigger” sets the color of a small cube in the world to a random color. When the first character moves to or through the location of the cube, or color trigger, it sets the character’s color to be that of the trigger. The last button toggles between 2 textures.
